@@ -1,6 +1,6 @@
-var urlRest = 'http://129.159.58.143:8080/api/Reservation/';
-var urlMotorbike = "http://129.159.58.143:8080/api/Motorbike/all";
-var urlClient = "http://129.159.58.143:8080/api/Client/all";
+var urlRest = 'http://168.138.141.183:8080/api/Reservation/';
+var urlMotorbike = "http://168.138.141.183:8080/api/Motorbike/all";
+var urlClient = "http://168.138.141.183:8080/api/Client/all";
 
 
 /* var urlRest = 'http://localhost:8080/api/Reservation/';
