@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Category</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/category.js"></script>
+  <link rel="stylesheet" media="all" href="css/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="mt.ico" />
+
+</head>
+
+<body>
+
+  <div class="form1" style="left: 50px;" >
+
+    <div class="form">
+
+      <a class="atras" href="index.html">
+        Atras
+      </a>
+
+      <h2>CATEGORY FORM</h2>
+
+      <input type="text" id="name" placeholder="Name"></input>
+
+      <textarea type="text" id="description" placeholder="Description" style="height: 150px;" cols="0" rows="10"></textarea>
+
+      <button class="save" onclick="saveInf()">
+       Save
+      </button>
+      
+      <button class="clean" id="limpiar">
+      Clean
+      </button>
+
+    </div>
+
+    <div class="consulta">
+
+      <div class="resultado" id="resultado"></div>
+
+      <button class="visualize" onclick="visualizeInf()">
+        Visualize
+      </button>
+      
+    </div>
+  </div>
+
+</body>
+
+</html>

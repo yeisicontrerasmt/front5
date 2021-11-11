@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Moto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/motorbike.js"></script>
+  <link rel="stylesheet" media="all" href="css/style.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="mt.ico" />
+
+</head>
+
+<body>
+
+  <div class="form1" style="left: 0px;">
+    <div class="form">
+
+      <a class="atras" href="index.html">
+        Atras
+      </a>
+
+      <h2>MOTO FORM</h2>
+      <input type="text" id="name" placeholder="Name"></input>
+      <input type="text" id="brand" placeholder="Brand"></input>
+      <input type="number" id="year" placeholder="Year"></input>
+      <select id="category_id">
+        <option value="">Choose a category</option>
+      </select>
+
+      <script type="text/javascript">
+        window.onload = selectIdCategory();
+      </script>
+
+      <textarea type="text" id="description" style="height: 80px;" cols="0" rows="10" placeholder="Description"></textarea>
+
+      <button class="save" onclick="saveInf()">
+       Save
+      </button>
+
+      <button class="clean" id="limpiar">
+        Clean
+      </button>
+
+    </div>
+
+    <div class="consulta">
+
+      <div class="resultado" id="resultado"></div>
+
+      <button class="visualize" onclick="visualizeInf()">
+       Visualize
+      </button>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
