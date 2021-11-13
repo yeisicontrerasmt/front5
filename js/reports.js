@@ -1,4 +1,4 @@
-var urlRest = 'http://168.138.141.183:8080/api/Reservation/';
+var urlRest = 'http://129.159.58.143:8080/api/Reservation/';
 /* var urlRest = 'http://localhost:8080/api/Reservation/'; */
 
 function visualizeInfByStatus() {
